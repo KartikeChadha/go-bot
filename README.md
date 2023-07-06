@@ -1,7 +1,7 @@
 # Golang Slack Bot
 A slack bot written in Go which can upload files on slack channels and calculate age
 
-##Setup 
+## Setup 
 
 Initially, change the Slack Bot token and App token along with the channel ID according to your workspace
 ```bash
@@ -19,7 +19,7 @@ go build && go run main.go
 ```
 
 
-###FileUploader
+### FileUploader
 ![alt text](./.img/1.png?raw=true)
 
 To upload a file from your local machine to slack through a command
@@ -28,7 +28,7 @@ To upload a file from your local machine to slack through a command
 ```
 where path is the path relative to root where the file resides
 
-###Age Calculator
+### Age Calculator
 ![alt text](./.img/2.png?raw=true)
 
 To calculate your age given your birth yera with slack through a command
